@@ -10,7 +10,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', Arial, sans-serif;
-  line-height: 1.6;
+  line-height: 1.6; 
   color: var(--text);
   background-color: var(--bg);
 }
@@ -169,7 +169,7 @@ section a:hover {
 /**************   Projects   *****************/
 
 .three-col {
-  display: grid;
+  display: grid;  /* Used to fix project cards */
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
