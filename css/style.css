@@ -107,9 +107,10 @@ section h2 {
   font-family: 'Oswald', sans-serif;
   color: var(--primary);
   border-bottom: 2px solid var(--accent);
-  display: inline-block;
+  display: block;               
   text-transform: uppercase;
   margin-bottom: 1.5rem;
+  padding-bottom: 5px;
 }
 
 section h3 {
@@ -188,6 +189,9 @@ section a:hover {
   box-shadow: 0 4px 6px rgba(0,0,0,0.05);
   background: white;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
 }
 
 .card h3 {
